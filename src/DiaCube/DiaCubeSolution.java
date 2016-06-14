@@ -31,8 +31,8 @@ public class DiaCubeSolution {
     public String findSolution(DiaCubeSolution first, Queue<DiaCubeSolution> queue, String path)throws Exception{
         if(first.checkSolution(first.sideColorCopy))throw new Exception("s");
         for (int i = 0; i < 8; i++) {
-            DiaCubeSolution second = new DiaCubeSolution();
-            queue.add(second);
+            //DiaCubeSolution second = new DiaCubeSolution();
+            //queue.add(second);
         }
         return path;
     }

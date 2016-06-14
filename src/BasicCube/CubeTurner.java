@@ -2,6 +2,8 @@ package BasicCube;
 
 import java.applet.Applet;
 import java.awt.*;
+import java.awt.image.DataBuffer;
+import java.util.Date;
 
 /**
  * Created by artmmslv on 07.06.16.
